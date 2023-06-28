@@ -7,8 +7,10 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Nifti'),
-      ),
+        title: SizedBox(
+          width: 80,
+          child: Image.asset('images/nifti_logo.png'),
+      ),),
       body: const Center(child: Text('Test')),
     );
   }

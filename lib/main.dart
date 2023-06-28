@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:nifti_app/Pages/home_page.dart';
+import 'package:nifti_app/widget_tree.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,13 +13,13 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
       theme: ThemeData(
         fontFamily: 'Montserrat',
         useMaterial3: true,
       ),
-      home: const HomePage(),
+      home: const WidgetTree(),
     );
+    
   }
 }
 

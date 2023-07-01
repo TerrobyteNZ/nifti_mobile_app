@@ -1,17 +1,11 @@
 import "package:flutter/material.dart";
 
+//Bluetooth Contact Exchange Page
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: SizedBox(
-          width: 80,
-          child: Image.asset('images/nifti_logo.png'),
-      ),),
-      body: const Center(child: Text('Test')),
-    );
+   return const Scaffold();
   }
 }
